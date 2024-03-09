@@ -7,8 +7,16 @@
 
   <body>
     <center>
-      Learn HTML, CSS, JavaScript, and Git from Scrath
+      <p class="learn">Learn HTML, CSS, JavaScript, and Git from Scrath</p>
       <br />
+      <button onclick="changeColor()">Change to Green</button>
     </center>
   </body>
+
+  <script>
+    const learn = document.querySelector(".learn");
+    function changeColor(){
+        learn.style.color = "green";
+    }
+  </script>
 </html>
